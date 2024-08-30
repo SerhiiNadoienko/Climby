@@ -1,0 +1,296 @@
+.flex {
+  display: flex;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+/* Column Layouts */
+.column {
+  flex-direction: column;
+}
+
+.columnReverse {
+  flex-direction: column-reverse;
+}
+
+.colCenter {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.colVCenter {
+  flex-direction: column;
+  align-items: center;
+}
+
+.colHCenter {
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Row Layouts */
+.row {
+  flex-direction: row;
+}
+
+.rowReverse {
+  flex-direction: row-reverse;
+}
+
+.rowCenter {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.rowHCenter {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.rowHEnd {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.rowVCenter {
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexWrap {
+  flex-wrap: wrap;
+}
+
+.flexGrow {
+  flex-grow: 1;
+}
+
+/* Default Layouts */
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.alignItemsCenter {
+  align-items: center;
+}
+
+.alignItemsStart {
+  align-items: flex-start;
+}
+
+.alignItemsEnd {
+  align-items: flex-end;
+}
+
+.alignItemsStretch {
+  align-items: stretch;
+}
+
+.alignSelfStart {
+  align-self: flex-start;
+}
+
+.alignSelfEnd {
+  align-self: flex-end;
+}
+
+.alignSelfStretch {
+  align-self: stretch;
+}
+
+.alignSelfCenter {
+  align-self: center;
+}
+
+.justifyContentCenter {
+  justify-content: center;
+}
+
+.justifyContentAround {
+  justify-content: space-around;
+}
+
+.justifyContentBetween {
+  justify-content: space-between;
+}
+
+.justifyContentEnd {
+  justify-content: flex-end;
+}
+
+.scrollSpaceAround {
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+.scrollSpaceBetween {
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.selfStretch {
+  align-self: stretch;
+}
+
+/* Standard spaces */
+
+.ml4 {
+  margin-left: 4px;
+}
+
+.ml8 {
+  margin-left: 8px;
+}
+
+.mr8 {
+  margin-right: 8px;
+}
+
+.ml12 {
+  margin-left: 12px;
+}
+
+.mr12 {
+  margin-right: 12px;
+}
+
+.mr20 {
+  margin-right: 20px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mt32 {
+  margin-top: 32px;
+}
+
+.mt48 {
+  margin-top: 48px;
+}
+
+.mb0 {
+  margin-bottom: 0px;
+}
+
+.mb4 {
+  margin-bottom: 4px;
+}
+
+.mb8 {
+  margin-bottom: 8px;
+}
+
+.mb12 {
+  margin-bottom: 12px;
+}
+
+.mb16 {
+  margin-bottom: 16px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb24 {
+  margin-bottom: 24px;
+}
+.mb28 {
+  margin-bottom: 28px;
+}
+
+.mb32 {
+  margin-bottom: 32px;
+}
+.mb40 {
+  margin-bottom: 40px;
+}
+
+.mb48 {
+  margin-bottom: 48px;
+}
+
+.mb60 {
+  margin-bottom: 60px;
+}
+
+.gap8 {
+  gap: 8px;
+}
+
+.gap12 {
+  gap: 12px;
+}
+
+.gap16 {
+  gap: 16px;
+}
+
+.gap24 {
+  gap: 24px;
+}
+
+.pt6 {
+  padding-top: 6px;
+}
+
+/* Icon sizes */
+
+.icon {
+  align-self: center;
+  width: 24px;
+  height: 24px;
+}
+.icon20 {
+  align-self: center;
+  width: 20px;
+  height: 20px;
+}
+.action-button-width {
+  width: 74px; /* Prevents layout breakage during loading */
+}
+
+.icon16 {
+  align-self: center;
+  width: 16px;
+  height: 16px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+/* cursors */
+
+.cursorDefault {
+  cursor: default;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.overflowWrap {
+  overflow-wrap: anywhere;
+}
+
+/* Text layouts */
+
+.text-no-wrap {
+  white-space: nowrap;
+}
+
+.inline {
+  display: inline;
+}
