@@ -1,0 +1,76 @@
+/* Right side positioning */
+.ext-vertical-split-main-section {
+  direction: rtl;
+}
+
+.ext-sign-in-box {
+  vertical-align: middle;
+  direction: ltr;
+}
+
+.ext-banner-logo {
+  max-height: 72px;
+}
+
+.ext-title {
+  color: #0033a0;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  margin-top: 64px;
+  margin-bottom: 8px;
+}
+
+.ext-header-description {
+  color: #738095;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+a:link {
+  color: #1886fe;
+}
+
+.ext-button-field-container {
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.ext-button.ext-primary {
+  color: #fff;
+  border-color: #0033a0;
+  background-color: #0033a0;
+  display: block;
+  width: 100%;
+  border-radius: 24px;
+  text-transform: uppercase;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.ext-button.ext-secondary {
+  border-radius: 24px;
+  text-transform: uppercase;
+  margin: 10px 0;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.ext-input.ext-text-box {
+  border-width: 1px;
+  border-color: #e2e4e9;
+  border-radius: 12px;
+  padding: 12px;
+  background-color: #ffffff;
+}
+
+.ext-input.ext-text-box:focus {
+  background-color: #ffffff;
+}

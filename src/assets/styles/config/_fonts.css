@@ -1,0 +1,273 @@
+@font-face {
+  font-family: 'AdelleSans';
+  src:
+    local('AdelleSans'),
+    url('../../fonts/AdelleSans.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'AdelleSansThin';
+  src:
+    local('AdelleSansThin'),
+    url('../../fonts/AdelleSans-Thin.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'AdelleSansLight';
+  src:
+    local('AdelleSansLight'),
+    url('../../fonts/AdelleSans-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'AdelleSansSemiBold';
+  src:
+    local('AdelleSansSemiBold'),
+    url('../../fonts/AdelleSans-SemiBold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'AdelleSansBold';
+  src:
+    local('AdelleSansBold'),
+    url('../../fonts/AdelleSans-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'AdelleSansExtraBold';
+  src:
+    local('AdelleSansExtraBold'),
+    url('../../fonts/AdelleSans-ExtraBold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'AdelleSansHeavy';
+  src:
+    local('AdelleSansHeavy'),
+    url('../../fonts/AdelleSans-Heavy.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'WorkSansThin';
+  src:
+    local('WorkSansThin'),
+    url('../../fonts/WorkSans-Thin.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'WorkSansSemiBold';
+  src:
+    local('WorkSansSemiBold'),
+    url('../../fonts/WorkSans-SemiBold.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'WorkSansLight';
+  src:
+    local('WorkSansLight'),
+    url('../../fonts/WorkSans-Light.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'WorkSansExtraBold';
+  src:
+    local('WorkSansExtraBold'),
+    url('../../fonts/WorkSans-ExtraBold.ttf') format('opentype');
+}
+@font-face {
+  font-family: 'WorkSansBold';
+  src:
+    local('WorkSansBold'),
+    url('../../fonts/WorkSans-Bold.ttf') format('opentype');
+}
+
+.font96-bold {
+  font-family: 'AdelleSansBold';
+  font-size: 96px;
+  line-height: 124.8px;
+  font-weight: 700;
+}
+.font76-bold {
+  font-family: 'AdelleSansBold';
+  font-size: 76px;
+  line-height: 91.2px;
+  font-weight: 700;
+}
+
+.font60-bold {
+  font-family: 'AdelleSansBold';
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+}
+
+.font48-bold {
+  font-family: 'AdelleSansBold';
+  font-size: 48px;
+  line-height: 62.4px;
+  font-weight: 700;
+}
+.font38-bold {
+  font-family: 'AdelleSansBold';
+  font-size: 38px;
+  line-height: 49.4px;
+  font-weight: 700;
+}
+
+.font34-bold {
+  font-family: 'AdelleSansBold';
+  font-size: 34px;
+  line-height: 44.2px;
+  font-weight: 700;
+}
+
+.font27-bold {
+  font-family: 'AdelleSansBold';
+  font-size: 27px;
+  line-height: 35.1px;
+  font-weight: 700;
+}
+
+.font24-bold {
+  font-family: 'AdelleSansBold';
+  font-size: 24px;
+  line-height: 31.2px;
+  font-weight: 700;
+}
+
+.font20-bold {
+  font-family: 'AdelleSansBold';
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.font20-semi-bold {
+  font-family: 'AdelleSansSemiBold';
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.font18-bold {
+  font-family: 'AdelleSansBold';
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.font16-semi-bold {
+  font-family: 'AdelleSansSemiBold';
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.font14-bold {
+  font-family: 'AdelleSansSemiBold';
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
+}
+
+.font16-normal {
+  font-family: 'AdelleSans';
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.font14-normal {
+  font-family: 'AdelleSans';
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.font12-normal {
+  font-family: 'AdelleSans';
+  font-size: 12px;
+  line-height: 16.8px;
+  font-weight: 400;
+}
+
+.font14-semi-bold {
+  font-family: 'AdelleSansSemiBold';
+  font-size: 14px;
+  line-height: 16.42px;
+  font-weight: 600;
+}
+
+.font14-work-sans-semi-bold {
+  font-family: 'WorkSansSemiBold';
+  font-size: 14px;
+  line-height: 16.42px;
+  font-weight: 600;
+}
+
+.font10-bold {
+  font-family: 'AdelleSansBold';
+  font-size: 10px;
+  line-height: 15px;
+  font-weight: 700;
+}
+
+.font10-normal {
+  font-family: 'AdelleSans';
+  font-size: 10px;
+  line-height: 15px;
+  font-weight: 400;
+}
+
+.font-color-grey {
+  color: var(--text-grey);
+}
+
+.font-color-black {
+  color: var(--text-black);
+}
+.font-color-white {
+  color: var(--text-white);
+}
+
+.font-color-red {
+  color: var(--red);
+}
+
+.font-color-blue {
+  color: var(--primary-deep-blue);
+}
+
+.font-color-orange {
+  color: var(--orange);
+}
+
+.font-color-darkGrey {
+  color: var(--primary-grey);
+}
+
+.font-color-lightGrey {
+  color: var(--black-20);
+}
+
+.font-color-yellow {
+  color: var(--status-orange);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+/* Text layouts */
+
+.textAlignCenter {
+  text-align: center;
+}

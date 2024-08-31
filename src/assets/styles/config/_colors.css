@@ -1,0 +1,26 @@
+:root {
+  /* Primary colors */
+  --primary-dark-blue-gray: #31314a;
+  --primary-black: #141414;
+  --primary-white: #ffffff;
+  --primary-gray: #262626;
+  /* Secondary colors */
+  --secondary-black: #1a1a1a;
+
+  --secondary-gray: #333333;
+  /* Text colors */
+
+  --text-grey: #738095;
+  --text-black: #1e1e1e;
+
+  /* Background colors  */
+
+  /* Others */
+  --neon: #98c1d9;
+  /* Black shadows */
+  --black-80: rgba(30, 30, 30, 0.8);
+  --black-40: rgba(30, 30, 30, 0.4);
+  --black-20: rgba(30, 30, 30, 0.2);
+  --black-10: rgba(30, 30, 30, 0.1);
+  --black-5: rgba(30, 30, 30, 0.05);
+}
