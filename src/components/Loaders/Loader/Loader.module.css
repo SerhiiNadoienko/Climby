@@ -1,0 +1,5 @@
+.loader {
+  width: 48px;
+  height: 48px;
+  border-top: 2px solid var(--primary-deep-blue);
+}

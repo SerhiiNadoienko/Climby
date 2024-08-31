@@ -4,6 +4,9 @@ import { createBrowserRouter } from 'react-router-dom';
 
 const HomePage = lazy(() => import('pages/HomePage'));
 const RootPage = lazy(() => import('pages/RootPage'));
+const GoalCreation = lazy(() => import('pages/GoalCreationPage'));
+const Channels = lazy(() => import('pages/ChannelsPage'));
+
 const NotFoundPage = lazy(() => import('pages/NotFoundPage'));
 
 export const router = createBrowserRouter([
@@ -15,10 +18,14 @@ export const router = createBrowserRouter([
         index: true,
         element: <HomePage />,
       },
-      /*  {
-                      path: `${ROUTES.SPECIFIC_APPLICATION}/:loanId`,
-                      element: <SpecificApplicationPage />,
-                    },  */
+      {
+        path: ROUTES.GOAL_CREATION,
+        element: <GoalCreation />,
+      },
+      {
+        path: ROUTES.CHANNELS,
+        element: <Channels />,
+      },
     ],
   },
   {
