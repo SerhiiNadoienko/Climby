@@ -1,0 +1,32 @@
+.container {
+  width: 70px;
+  height: 70px;
+  background-color: var(--secondary-gray);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.circle::before {
+  content: '';
+  position: absolute;
+
+  right: 1;
+  bottom: 2;
+  width: 80px;
+  height: 80px;
+  border: 2px solid rgb(154, 154, 154);
+  border-radius: 50%;
+  box-sizing: border-box;
+  pointer-events: none;
+}

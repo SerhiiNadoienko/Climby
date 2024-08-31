@@ -1,0 +1,61 @@
+:root {
+  /* Primary colors */
+  --primary-navy: #11294b;
+  --primary-deep-blue: #0033a0;
+  --primary-deep-green: #509e2f;
+  --primary-black: #1e1e1e;
+  --primary-grey: #474c55;
+  --primary-white: #ffffff;
+  /* Secondary colors */
+  --secondary-light-grey: #e2e4e9;
+  --secondary-blue: #e3f5ff;
+  --secondary-deep-blue: #2251b5;
+  --secondary-purple: #e5ecf6;
+  /* Text colors */
+  --text-grey: #738095;
+  --text-black: #1e1e1e;
+  --text-white: #f1f2f2;
+  /* Background colors  */
+  --background-white: #ffffff;
+  --background-grey: #f6f6f6;
+  --background-blue-grey: #f3f4f7;
+  --background-light: #f7f9fb;
+  /* Others */
+  --blue: #1886fe;
+  --light-blue: rgba(24, 134, 254, 0.1);
+  --deep-blue-5: rgba(0, 51, 160, 0.05);
+  --primary-blue-10: rgba(0, 51, 160, 0.1);
+  --primary-blue-2: rgba(0, 51, 160, 0.2);
+  --red: #ff3b30;
+  --light-red: rgba(255, 59, 48, 0.1);
+  --orange: #ff9500;
+  --light-orange: rgba(255, 149, 0, 0.1);
+  --green: #34c759;
+  --light-green: rgba(52, 199, 89, 0.1);
+  --light-green-2: rgba(52, 199, 89, 0.2);
+  --light-gray: rgba(0, 0, 0, 0.05);
+  /* Black shadows */
+  --black-80: rgba(30, 30, 30, 0.8);
+  --black-40: rgba(30, 30, 30, 0.4);
+  --black-20: rgba(30, 30, 30, 0.2);
+  --black-10: rgba(30, 30, 30, 0.1);
+  --black-5: rgba(30, 30, 30, 0.05);
+  /* Statuses */
+  --status-orange: #ffa845;
+  --status-ocean: #17bab3;
+  --status-violet: #7675eb;
+  --status-blue: #5ca1ed;
+  --status-red: #ed655d;
+  --status-green: #3cb589;
+  --status-orange-10: rgba(255, 168, 69, 0.1);
+  --status-ocean-10: rgba(23, 186, 179, 0.1);
+  --status-violet-10: rgba(118, 117, 235, 0.1);
+  --status-blue-10: rgba(92, 161, 237, 0.1);
+  --status-red-10: rgba(237, 101, 93, 0.1);
+  --status-red-5: rgba(237, 101, 93, 0.05);
+  --status-red-2: rgba(237, 101, 93, 0.2);
+  --status-green-10: rgba(60, 181, 137, 0.1);
+  /* States */
+  --state-red: #ff564c;
+  --state-red-10: rgba(237, 101, 93, 0.1);
+}

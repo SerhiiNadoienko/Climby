@@ -1,0 +1,19 @@
+.progressCircle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 18px;
+  overflow: auto;
+  white-space: nowrap;
+  padding-left: 20px;
+  width: 100vw;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.progressCircle > * {
+  flex-shrink: 0;
+}
+
+.progressCircle::-webkit-scrollbar {
+  display: none;
+}
